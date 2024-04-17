@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
      colors:{
       main:{
-        400:'#877979'
+        400:'#877979',
+        700:'#645A5A',
       },
      
      }
