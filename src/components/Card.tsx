@@ -17,7 +17,9 @@ const Card: FC<PropsWithChildren<IProps>> = ({
   return (
     <div
       className={clsx(
-        `col-span-3 h-[17.5rem] rounded-[20px] border-solid border-neutral-400 xl:col-span-${span}`,
+        "col-span-3 h-[17.5rem] rounded-[20px] border-solid border-neutral-400",
+        { "xl:col-span-1": span === 1 },
+        { "xl:col-span-2": span === 2 },
         { "border-[1px]": bordered },
       )}
     >
