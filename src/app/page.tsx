@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Card from "../components/Card";
 import WarningIcon from "@/components/icons/warning-icon";
 import ToolsIcon from "@/components/icons/tools-icon";

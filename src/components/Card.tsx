@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { FC, PropsWithChildren, ReactNode } from "react";
+import { FC, PropsWithChildren, ReactNode } from "react";
 
 interface IProps {
   bordered?: boolean;
