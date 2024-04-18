@@ -37,10 +37,10 @@ const RentalTools = async () => {
               <Flag
                 color={
                   item.status === "Completed"
-                    ? "#68CD34"
+                    ? "var(--clr-green)"
                     : item.status === "In Progress"
-                      ? "#0879FF"
-                      : "#F82715"
+                      ? "var(--clr-blue)"
+                      : "var(--clr-red)"
                 }
               />
               {item.status}

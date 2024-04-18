@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --clr-blue: #0879ff;
+  --clr-orange: #e97300;
+  --clr-green: #68cd34;
+  --clr-red: #f82715;
+}

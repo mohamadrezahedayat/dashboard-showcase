@@ -1,4 +1,1 @@
-export enum StockStatus {
-  Low,
-  None,
-}
+export type StockStatus = "Low" | "None";
