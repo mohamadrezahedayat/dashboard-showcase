@@ -1,9 +1,9 @@
-import React from 'react'
+import { getWorkOrderStatus } from "@/http";
+import WorkOrderChart from "./chart";
 
-const WorkOrderStatus = () => {
-  return (
-    <div>WorkOrderStatus</div>
-  )
-}
+const WorkOrderStatus = async () => {
+  const data = await getWorkOrderStatus();
+  return <WorkOrderChart data={data} />;
+};
 
-export default WorkOrderStatus
+export default WorkOrderStatus;
