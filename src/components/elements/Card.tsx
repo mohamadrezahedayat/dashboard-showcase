@@ -10,7 +10,7 @@ interface IProps {
 
 const Card: FC<PropsWithChildren<IProps>> = ({
   bordered = true,
-  span = 1,
+  span = 2,
   title = "title",
   icon,
   children
@@ -18,9 +18,9 @@ const Card: FC<PropsWithChildren<IProps>> = ({
   return (
     <div
       className={clsx(
-        "col-span-3 flex h-[17.5rem] flex-col rounded-[20px] border-solid  border-neutral-400 pb-8",
-        { "xl:col-span-1": span === 1 },
+        "col-span-5 flex h-[17.5rem] flex-col rounded-[20px] border-solid  border-neutral-400 pb-8",
         { "xl:col-span-2": span === 2 },
+        { "xl:col-span-3": span === 3 },
         { "border-[1px]": bordered },
       )}
     >
