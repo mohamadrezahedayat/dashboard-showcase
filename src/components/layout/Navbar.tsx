@@ -49,7 +49,7 @@ const Navbar = () => {
       </nav>
       {/* horizontal navbar */}
       {!sideOpen && (
-        <nav className="fixed left-0 right-0 top-0 flex h-16 items-center overflow-hidden bg-main-400 pl-5 md:h-0">
+        <nav className="fixed left-0 right-0 top-0 z-50 flex h-16 items-center overflow-hidden bg-main-400 pl-5 md:h-0">
           <button
             className="flex h-12 w-12 items-center justify-center rounded-[10px] text-white hover:bg-main-700"
             onClick={() => setsideOpen(true)}

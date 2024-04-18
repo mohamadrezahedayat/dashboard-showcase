@@ -8,4 +8,22 @@
   --clr-green: #68cd34;
   --clr-green-dark: #3EB266;
   --clr-red: #f82715;
+  --clr-brown: #877979;
+  --clr-brown-dark: #645A5A;
+}
+
+* {
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    width: 4px ;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    width: 4px ;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color:#645A5A;
+    width: 6px ;
+    border-radius: 20px;
+  }
 }
