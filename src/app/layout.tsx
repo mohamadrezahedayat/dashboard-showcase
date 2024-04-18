@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 import "./globals.css";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/layout/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 

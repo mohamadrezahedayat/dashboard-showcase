@@ -6,12 +6,12 @@ import clsx from "clsx";
 
 import NavLink from "./NavLink";
 import useModal from "@/hooks/useModal";
-import HomeIcon from "./icons/home-icon";
-import MenuIcon from "./icons/menu-icon";
-import ChartIcon from "./icons/chart-icon";
-import ToolsIcon from "./icons/tools-icon";
-import SettingsIcon from "./icons/settings-icon";
-import AnalyticsIcon from "./icons/analytics-icon";
+import HomeIcon from "../icons/home-icon";
+import MenuIcon from "../icons/menu-icon";
+import ChartIcon from "../icons/chart-icon";
+import ToolsIcon from "../icons/tools-icon";
+import SettingsIcon from "../icons/settings-icon";
+import AnalyticsIcon from "../icons/analytics-icon";
 
 const Navbar = () => {
   const [sideOpen, setsideOpen] = useState(false);
